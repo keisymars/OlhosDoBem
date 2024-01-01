@@ -109,6 +109,7 @@ section{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap:1.5rem;
     
 }
 
@@ -133,10 +134,10 @@ section{
 
 .titulodepoimentos{
     display: flex;
-    height: 20vh;
+    height: 18vh;
     width: 100%;
     background-color:#2ee6d6;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     font-size: 2.5rem;
     font-weight: 800;
@@ -235,14 +236,16 @@ section{
 
     display: flex;
     justify-content: space-around;
-    height: 55vh;
+    height: 66vh;
     width: 100%;
     background-color: var(--color-cidades);
 
 
 }
 
-.container
+
+
+.containervideos
 {
     display: flex;
     flex-direction: row;
@@ -311,6 +314,7 @@ section{
     justify-content: center;
     color: var(--color-neutral-0);
     text-justify: inter-word;
+    padding: 4rem;
 
   }
   
@@ -403,11 +407,12 @@ footer
     color: var(--color-neutral-40);
     display: flex;
     width: 100%;
-    height: 40vh;
+    height: 44vh;
     background-color: black;
     bottom: 0;
     position: absolute;
     align-content: space-around;
+    flex-direction: column;
 }
     
 
@@ -511,12 +516,22 @@ footer
 #copyright
 {
     display: flex;
+    width: 100%;
     justify-content: center;
+    align-items: center;
     background-color: var(--color-neutral-0);
     bottom: 0;
-    font-size: 0.9rem;
-    padding: 1.5rem;
+    position: absolute;
+    font-size: 0.8rem;
     font-weight: 200;
     color:#fff;
-    width: 100%;
+    height: 7vh;
+    flex-direction: column;
+}
+
+.kei
+{
+  text-decoration: none;
+  color: #6a9eda;
+  font-weight: 400;
 }
