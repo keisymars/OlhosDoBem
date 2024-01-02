@@ -40,8 +40,8 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  
   list-style: none;
+  height: auto;
 }
 
 .nav-list a 
@@ -50,6 +50,7 @@ body{
   font-size: 1.1rem;
   font-weight: 600;
   color: #105566;
+  height: auto;
 }
 
 .logoup
@@ -58,6 +59,7 @@ body{
   align-items: center;
   width: 40%;
   padding: 2.5%;
+  height: auto;
 }
 
 
