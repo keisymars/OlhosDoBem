@@ -6,7 +6,7 @@
     --color-neutral-10: #343737;
     --color-neutral-30: #a8a29e;
     --color-neutral-40: #f5f5f5;
-    --color-cidades:rgb(34, 190, 183);
+    --color-cidades:rgb(34, 159, 190);
 
 }
 
@@ -47,7 +47,7 @@
 .nav-list a 
 {
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: #105566;
   height: 13vh;
@@ -58,10 +58,99 @@
   display: flex;
   align-items: center;
   width: 40%;
-  padding: 2.5%;
+  padding: 2.6%;
   height: 13vh;
+  justify-content: flex-start;
+  
+  
 }
 
+.borda
+{
+  width: 130px;
+  height: 130px;
+  background-color: #05050521;
+  border-radius: 50%;
+  display: flex;      
+  align-items: center;
+  justify-content: center;
+
+}
+
+.principal
+{
+  background-color: #ffffff;
+	/* border: 2px solid #000000; */
+	border-radius: 50px;
+	box-sizing: border-box;
+	cursor: default;
+	display: flex;
+	width: 100%;
+  height: 90vh;
+	padding: 2.5rem;
+}
+
+
+.esquerdo{
+  width: 60%;
+  height: 100%;
+ 
+}
+
+.direito
+{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+} 
+
+.direito img{
+  border: 2px solid rgb(3, 0, 51);
+	border-radius: 30px;
+	box-sizing: border-box;
+	cursor: default;
+	display: inline;
+	max-width: 100%;
+	overflow: clip;
+}
+ 
+.titleprincipal
+{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #085f75;
+}
+
+.textoprincipal
+{
+  width: 100%;
+  height: 40%;
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #2c3442;
+}
+
+.botoesprincipal
+{
+  width: 100%;
+  height: 30%;
+  background-color: #ffffff;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  
+}
 
 
 /* CSS */
@@ -73,7 +162,7 @@
   color: #422800;
   cursor: pointer;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1rem;
   padding: 0 10px;
   line-height: 3.5rem;
@@ -129,8 +218,10 @@ section{
     background-size: 300% 300%;
     color: #fff;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     height: 100vh;
+    padding:2rem;
+    gap:3rem;
 
 }
 
@@ -726,4 +817,76 @@ footer
   text-decoration: none;
   color: #6a9eda;
   font-weight: 400;
+}
+
+
+
+
+/* CSS */
+.button-75 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0 18px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  text-shadow: none;  
+  flex-wrap: wrap;
+}
+
+.button-75:hover {
+  background-color: #fff;
+}
+
+.button-75:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+
+/* CSS */
+.button-76 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  text-shadow: none;
+}
+
+.button-76:hover {
+  background-color: #fff;
+}
+
+.button-76:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
 }
