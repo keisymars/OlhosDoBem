@@ -17,6 +17,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+  scroll-snap-type: y mandatory;
+}
+
 section{
     height: 100vh;
     scroll-snap-align: start;
@@ -29,7 +33,7 @@ section{
 
 .interface{
     height: 100vh;
-    scroll-snap-type: y mandatory;
+    /* scroll-snap-type: y mandatory; */
     overflow-y: scroll;
 }
 
@@ -38,7 +42,7 @@ section{
     background-image: linear-gradient(45deg, #74ebd5, #8195eb, #20e3b2,#bd2ebd);
     animation: color 12s ease-in-out infinite;
     background-size: 300% 300%;
-    color: fff;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -102,6 +106,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 100vh;
     
     
 }
@@ -112,12 +117,14 @@ section{
     justify-content: center;
     flex-direction: column;
     gap:1.5rem;
+    height: 100vh;
     
 }
 
 .page5{
     background-color: #7ff9c7;
     display: flex;flex-direction: column;
+    height: 100vh;
 
 }
 
@@ -407,7 +414,7 @@ section{
   }
   
   .card1:hover .card-info {
-    color: #a5c1e7;
+    color: #0955c0;
     transition: color 1s;
   }
   
