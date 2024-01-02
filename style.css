@@ -119,6 +119,26 @@ section{
 
 }
 
+.olhosdobem
+{
+  color: #00a9d3;
+  background-color: #7989e62c;
+  font-weight: 900;
+  text-transform: uppercase;
+  
+}
+
+.free
+{
+  color: #70d300;
+  background-color: #79e6882c;
+  font-weight: 900;
+  text-transform: uppercase;
+
+}
+
+
+
 
 
 .direitos
@@ -232,6 +252,55 @@ section{
       transform: translateY(-2px);
     }
   }
+
+  .cardbottom {
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 3vh;
+    width: 35vh;
+    height: 27vh;
+    border-radius: 5vh;
+    background: #F3F3F3;
+    color: #105566;
+    box-shadow: 3px 3px 10px #bebebe,
+                  -3px -3px 10px #e0f5dd;
+                 
+                
+   }
+
+   .s1
+   {
+    background-color: #6ee3203f;
+   }
+   .s2
+   {
+    background-color: #6b20e33f;
+   }
+   .s3
+   {
+    background-color: #e320a83f;
+   }
+   .s4
+   {
+    background-color: #16ddab3f;
+   }
+
+   .cartoes
+   {
+      margin-top: 3.5%;
+      width: 100%;
+      height: 40vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      text-justify:inter-word;
+      
+   }
   
 
   #cidades{
@@ -311,10 +380,10 @@ section{
   .card1 .textosobre {
     font-weight: bold;
     letter-spacing: 0.2em;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-align: justify;
     justify-content: center;
-    color: var(--color-neutral-0);
+    color: var(--color-neutral-10);
     text-justify: inter-word;
     padding: 4rem;
 
