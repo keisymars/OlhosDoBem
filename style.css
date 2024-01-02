@@ -42,6 +42,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 100vh;
 
 }
 
@@ -70,7 +71,7 @@ section{
     display: flex;
     box-sizing: border-box;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     align-items: center;
     justify-content: center;
     --color: #E1E1E1;
@@ -101,6 +102,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
     
 }
 
@@ -264,12 +266,21 @@ section{
     width: 35vh;
     height: 27vh;
     border-radius: 5vh;
-    background: #F3F3F3;
+    background: #faf4f4;
     color: #105566;
     box-shadow: 3px 3px 10px #bebebe,
                   -3px -3px 10px #e0f5dd;
                  
                 
+   }
+
+   .pq
+   {
+    margin-top: 3%;
+    color: #105566;
+    font-size: 2.5rem;
+    font-weight: 900;
+   
    }
 
    .s1
@@ -291,7 +302,7 @@ section{
 
    .cartoes
    {
-      margin-top: 3.5%;
+      margin-top: 1%;
       width: 100%;
       height: 40vh;
       display: flex;
@@ -378,12 +389,12 @@ section{
   }
 
   .card1 .textosobre {
-    font-weight: bold;
-    letter-spacing: 0.2em;
+    font-weight:800;
+    letter-spacing: 0.1em;
     font-size: 1.4rem;
     text-align: justify;
     justify-content: center;
-    color: var(--color-neutral-10);
+    color: #323332d0;
     text-justify: inter-word;
     padding: 4rem;
 
@@ -469,6 +480,15 @@ section{
     text-shadow: 0px 4px 18px #2c3442;
     cursor: pointer;
   }
+
+.titulosbeneficios
+{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
   
 
   
@@ -510,7 +530,8 @@ footer
 
 #footer_contacts p 
 {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
 
 }
 
