@@ -21,6 +21,47 @@ body{
   scroll-snap-type: y mandatory;
 }
 
+.navbar
+{
+  display: flex;
+  flex-direction: row;
+  height: 13vh;
+  width: 100%;
+  
+  
+  
+  
+}
+
+.nav-list
+{
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  list-style: none;
+}
+
+.nav-list a 
+{
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #105566;
+}
+
+.logoup
+{
+  display: flex;
+  align-items: center;
+  width: 40%;
+  padding: 2.5%;
+}
+
+
+
 section{
     height: 100vh;
     scroll-snap-align: start;
@@ -273,7 +314,7 @@ section{
     width: 35vh;
     height: 27vh;
     border-radius: 5vh;
-    background: #faf4f4;
+    background: #ffffff;
     color: #105566;
     box-shadow: 3px 3px 10px #bebebe,
                   -3px -3px 10px #e0f5dd;
@@ -379,6 +420,7 @@ section{
     background: var(--color);
     color: var(--color);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -387,6 +429,14 @@ section{
     border-radius: 0.6rem;
   }
   
+  .titulocomofunciona{
+    margin-top: 3%;
+    color: #105566;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  
+
   .card1 .title {
     font-weight: bold;
     font-size: 3rem;
@@ -397,24 +447,24 @@ section{
 
   .card1 .textosobre {
     font-weight:800;
-    letter-spacing: 0.1em;
-    font-size: 1.4rem;
+    /* letter-spacing: 0.1em; */
+    font-size: 1.6rem;
     text-align: justify;
     justify-content: center;
     color: #323332d0;
     text-justify: inter-word;
-    padding: 4rem;
+    padding: 3.5rem;
 
   }
   
   
-  /*Hover*/
+  /*  */
   .card1:hover::after {
     opacity: 0;
   }
   
   .card1:hover .card-info {
-    color: #0955c0;
+    color: #0240ec;
     transition: color 1s;
   }
   
