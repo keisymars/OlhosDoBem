@@ -17,9 +17,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
+/* body{
   scroll-snap-type: y mandatory;
-}
+} */
 
 .navbar
 {
@@ -28,10 +28,10 @@ body{
   height: 13vh;
   width: 100%;
   
-  
-  
-  
 }
+
+
+
 
 .nav-list
 {
@@ -47,7 +47,7 @@ body{
 .nav-list a 
 {
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: #105566;
   height: 13vh;
@@ -64,6 +64,46 @@ body{
 
 
 
+/* CSS */
+.button-74 {
+  background-color: #f3ffcd;
+  border: 2px solid #F9CB46;
+  border-radius: 30px;
+  box-shadow: #F9CB46 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 0 10px;
+  line-height: 3.5rem;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  flex-wrap: nowrap;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+
+
+
 section{
     height: 100vh;
     scroll-snap-align: start;
@@ -76,7 +116,7 @@ section{
 
 .interface{
     height: 100vh;
-    /* scroll-snap-type: y mandatory; */
+    scroll-snap-type: y mandatory;
     overflow-y: scroll;
 }
 
@@ -87,7 +127,6 @@ section{
     background-size: 300% 300%;
     color: #fff;
     display: flex;
-    align-items: center;
     justify-content: space-around;
     height: 100vh;
 
