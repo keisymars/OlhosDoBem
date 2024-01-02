@@ -41,7 +41,7 @@ body{
   align-items: center;
   justify-content: space-evenly;
   list-style: none;
-  height: auto;
+  height: 13vh;
 }
 
 .nav-list a 
@@ -50,7 +50,7 @@ body{
   font-size: 1.1rem;
   font-weight: 600;
   color: #105566;
-  height: auto;
+  height: 13vh;
 }
 
 .logoup
@@ -59,7 +59,7 @@ body{
   align-items: center;
   width: 40%;
   padding: 2.5%;
-  height: auto;
+  height: 13vh;
 }
 
 
