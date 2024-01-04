@@ -294,6 +294,7 @@ section{
     gap:1.5rem;
     height: 100vh;
     
+    
 }
 
 .page5{
@@ -890,3 +891,294 @@ footer
     padding: 0 25px;
   }
 }
+
+/* #cel */
+
+@media screen and (max-width:767px)
+{
+
+  button {
+    
+    width: 12rem;
+    
+  }
+
+  
+
+  .content
+  {
+    padding: 0px;
+    
+  }
+
+  .page4{
+    background-color:#2ee6d6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem;
+    height: fit-content;
+    position: relative;
+    
+    
+}
+
+ 
+
+  footer
+{
+    width: 100%;
+    color: var(--color-neutral-40);
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    bottom: 0;
+    position: relative;
+    align-content: space-around;
+    flex-direction: column;
+   
+}
+
+  .page5{
+    background-color: #7ff9c7;
+    display: flex;flex-direction: column;
+    height: fit-content;
+    flex-wrap: wrap;
+
+}
+
+.pq{
+  font-size: 2.5rem;
+  margin-top: 20%;
+}
+
+
+  .cardbottom {
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 3rem;
+    width: 20rem;
+    height: 18rem;
+    border-radius: 5vh;
+    background: #ffffff;
+    color: #105566;
+    box-shadow: 3px 3px 10px #bebebe,
+                  -3px -3px 10px #e0f5dd;
+                 
+                
+   }
+
+  .cartoes
+  {
+     margin-top: 2%;
+     width: 100%;
+     height: fit-content;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     text-justify:inter-word;
+     gap: 1.4rem;
+     position: relative;
+     padding: 5rem;
+     /* flex-wrap: wrap; */
+     
+     
+  }
+
+  .titulodepoimentos{
+    display: flex;
+    height: 9vh;
+    width: 100%;
+    background-color:#2ee6d6;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+ 
+  .titulosbeneficios
+{
+  width: 100%;
+  height: 9vh;
+  font-size: 3rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.videos
+{
+  width: 100%;
+  height: 100%;
+}
+  .container
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    justify-content: center;
+    position: relative;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    
+}
+
+  .card {
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-around;
+    width: 200px;
+    height: 250px;
+    padding: 20px 1px;
+    margin: 10px 0;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 10px 15px -3px rgba(57, 68, 64, 0.4),0 4px 6px -4px rgba(68, 243, 33, 0.4);
+    border-radius: 10px;
+    background: linear-gradient(45deg, #02111aea 0%, #085f75 100%);
+    
+    
+  }
+
+  .page3
+  {
+    position: relative;
+  }
+
+  #cidades{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    background-color: var(--color-cidades);
+    flex-wrap: nowrap;
+    margin-bottom: 17.5rem;
+    position: relative;
+
+
+}
+
+  .navbar
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 13vh;
+    width: 100%;
+    
+  }
+
+
+  .principal
+{
+  background-color: #ffffff;
+	/* border: 2px solid #000000; */
+	border-radius: 50px;
+	box-sizing: border-box;
+	cursor: default;
+	display: flex;
+	width: 90%;
+  height: 40vh;
+	padding: 2.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+  .interface
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titulocomofunciona{
+    margin-top: 3%;
+    color: #105566;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  .titleprincipal
+{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.5rem;
+  font-weight: 900;
+  color: #085f75;
+}
+
+.card1-info {
+  --color: #ffffff;
+  background: var(--color);
+  color: var(--color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  overflow: visible;
+  border-radius: 0.3rem;
+}
+
+.card1 .textosobre {
+  font-weight:800;
+  /* letter-spacing: 0.1em; */
+  font-size: 1rem;
+  text-align: justify;
+  justify-content: center;
+  color: #323332d0;
+  text-justify: inter-word;
+  padding: 3.5rem;
+
+}
+
+.page2{
+
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  --color: #E1E1E1;
+  background-color: #ffffff;
+  background-size: 55px 55px;
+  
+}
+
+.card1 {
+  --background: linear-gradient(to left, #a5c1e7 0%, #9b59b6 100%);
+  width: 55rem;
+  height: 35rem;
+  padding: 10px;
+  border-radius: 1rem;
+  overflow: visible;
+  background: #a5c1e7;
+  background: var(--background);
+  position: relative;
+  z-index: 1;
+
+}
+
+}
+
+
